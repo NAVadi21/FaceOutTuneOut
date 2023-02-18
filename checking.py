@@ -8,7 +8,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 cap = cv2.VideoCapture(0)
 
 pygame.mixer.init()
-music_directory = r"C:\Users\prana\Videos\music for edits"
+music_directory = r" " #input the directory to your music folder inside the " "
 music_files = [f for f in os.listdir(music_directory) if f.endswith('.mp3')]
 
 music_index = 0
