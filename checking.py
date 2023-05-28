@@ -11,7 +11,7 @@ pygame.mixer.init()
 music_directory = r" " #input the directory to your music folder inside the " "
 music_files = [f for f in os.listdir(music_directory) if f.endswith('.mp3')]
 
-music_index = 1
+music_index = 0
 music_paused = False
 
 while True:
