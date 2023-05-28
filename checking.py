@@ -7,7 +7,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 cap = cv2.VideoCapture(0)
 
-pygame.mixer.init
+pygame.mixer.init()
 music_directory = r" " #input the directory to your music folder inside the " "
 music_files = [f for f in os.listdir(music_directory) if f.endswith('.mp3')]
 
