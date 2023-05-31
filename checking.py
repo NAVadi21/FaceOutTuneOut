@@ -34,6 +34,7 @@ while True:
             if music_index >= len(music_files):
                 music_index = 0
             pygame.mixer.music.load(os.path.join(music_directory, music_files[music_index]))
+            
             pygame.mixer.music.play()
             music_index += 1
 
