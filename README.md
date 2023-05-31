@@ -2,7 +2,7 @@
 # Smart Music Player with Face Detection
 
 
-This project is a smart music player that automatically pauses the music when the user's face is moved away from the screen and resumes playback when the user comes back into the frame. The goal of this project is to enhance user convenience, save energy, ensure safety, and maintain social etiquette in various environments.
+This project is a smart music player that automatically pauses the music when the user's face is moved away from the screen and resumes playback when the user comes back into the frame. The goal of this project is to enhance user convenience, save energy, ensure safety, and maintain social etiquette in various environment.
 
 ## Features
 
